@@ -1,0 +1,51 @@
+
+
+#banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img {
+	height: 100%;
+	width: 100%;
+}
+
+#banner .contenedor {
+	color: #fff;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+}
+
+#banner h2 {
+	font-size: 28px;
+}
+
+#banner a {
+	border: 3px solid #fff;
+	color: #fff;
+	display: block;
+	margin-top: 10px;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+}
+
+#banner a:hover {
+	background: rgba(51,51,51,0.5);
+}
+
+
+
+
+@media (min-width: 480px) {
+	#banner h2 {
+		font-size: 40px;
+	}
+
+	#banner a {
+		margin-top: 25px;
+	}
+}

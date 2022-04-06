@@ -1,0 +1,88 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	height: 50px;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.contenedor {
+	margin: 4px;
+	width: 98%;
+}
+
+h1 {
+	float: left;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+#Bienvenidos {
+	text-align: center;
+}
+
+footer .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.copy {
+	font-size: 20px;
+}
+
+.sociales {
+	font-size: 28px;
+	text-align: center;
+	width: 100%;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*
+@media (min-width: 768px) {
+	.sociales {
+		width: auto;
+	}
+
+	footer .contenedor {
+		justify-content: space-between;
+	}
+}
+*/
+
+@media (min-width: 1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
